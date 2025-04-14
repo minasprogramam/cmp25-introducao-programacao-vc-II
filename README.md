@@ -87,6 +87,7 @@ Para puxar atualizações agora é só usar: **git pull upstream**
 O pull ou fetch fazem a mesma função, de pedir as atualizações do respositório externo, porém com o git pull ele força um merge do que esta sendo chamado do repositório externo.
 
 ![upstream-add](https://github.com/user-attachments/assets/650b9459-19b8-4250-802e-d294bc64ef6e)
+![upstream-pull](https://github.com/user-attachments/assets/5879fdb9-1e67-4813-9355-2f7f90a25298)
 
 **Para um clone simples:**
 No terminal: **git pull origin** ou **git pull origin nome-da-branch-externa**
@@ -95,7 +96,7 @@ No terminal: **git pull origin** ou **git pull origin nome-da-branch-externa**
 
 ### PROBLEMAS COM MERGE
 
-Ao puxar atualizações podem haver conflitos de merge
+Ao puxar atualizações podem haver conflitos de merge, para
 
 ---
 
