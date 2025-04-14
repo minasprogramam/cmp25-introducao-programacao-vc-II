@@ -96,7 +96,11 @@ No terminal: **git pull origin** ou **git pull origin nome-da-branch-externa**
 
 ### PROBLEMAS COM MERGE
 
-Ao puxar atualizações podem haver conflitos de merge, para
+Ao puxar atualizações podem haver conflitos de merge, para resolver de maneira mais "pacifica" vamos usar o merge e não o rebase. São comandos similares, mas no rebase caso haja um conflito entre o código local e o externo ele vai adicionar o externo. 
+No terminal: **git config pull.rebase false** 
+Esse comando configura a estratégia do comando de pull (atualização que faz merge junto) para que ele deixe o usário decidir o que fazer.
+Imagens de exemplo: fiz uma alteração em uma linha desse arquivo e tentei atualizar o meu arquivo com essa branch, gerou erro pela alteração que fiz. 
+
 
 ---
 
