@@ -97,13 +97,28 @@ No terminal: **git pull origin** ou **git pull origin nome-da-branch-externa**
 ### PROBLEMAS COM MERGE
 
 Ao puxar atualizações podem haver conflitos de merge, para resolver de maneira mais "pacifica" vamos usar o merge e não o rebase. São comandos similares, mas no rebase caso haja um conflito entre o código local e o externo ele vai adicionar o externo. 
+
 No terminal: **git config pull.rebase false** 
+
 Esse comando configura a estratégia do comando de pull (atualização que faz merge junto) para que ele deixe o usário decidir o que fazer.
+
 Imagens de exemplo: fiz uma alteração em uma linha desse arquivo e tentei atualizar o meu arquivo com essa branch, gerou erro pela alteração que fiz. 
+
+Fiz um **git pull upstream main**, ele funcionou e o merge (segundo processo desse comando) deu conflito.
+
+Usei o **git diff** para mostrar a diferença do código/texto (em verde no print abaixo).
+
+Aqui o que esta entre o <<<<<< HEAD e os ======= é o seu código local. O que esta entre ======= e >>>>>>> é o código externo que veio com o pull. Você deve escolher qual trecho fica e apagar os simbolos = < e > que indicam o conflito de merge.
+
+![erro-conflito-merge](https://github.com/user-attachments/assets/635932be-87be-4630-a0fd-57cf07e47969)
 
 
 ---
 
 ### COMO FAZER PULL REQUEST EM FORK
+
+Entrar no repositório original, ir na aba de pull request, selecionar o new pull request, compare across forks e seguir exemplo:
+
+![pull-request-fork](https://github.com/user-attachments/assets/201858c2-fcb1-40b5-b68c-98e937f6a9b5)
 
 
