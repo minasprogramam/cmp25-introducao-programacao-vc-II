@@ -112,7 +112,6 @@ Aqui o que esta entre o <<<<<< HEAD e os ======= é o seu código local. O que e
 
 ![erro-conflito-merge](https://github.com/user-attachments/assets/635932be-87be-4630-a0fd-57cf07e47969)
 
-
 ---
 
 ### COMO FAZER PULL REQUEST EM FORK
