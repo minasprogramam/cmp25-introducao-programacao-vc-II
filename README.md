@@ -96,7 +96,7 @@ No terminal: **git pull origin** ou **git pull origin nome-da-branch-externa**
 
 ### PROBLEMAS COM MERGE
 
-Ao puxar atualizações podem haver conflitos de merge, para
+CAUSAR CONFLITO
 
 ---
 
